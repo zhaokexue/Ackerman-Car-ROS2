@@ -1,0 +1,26 @@
+<?xml version="1.0" ?>
+<robot name="mbot" xmlns:xacro="http://www.ros.org/wiki/xacro" >
+
+<transmission name="j1_tran">
+  <type>transmission_interface/SimpleTransmission</type>
+  <joint name="j1">
+    <hardwareInterface>hardware_interface/EffortJointInterface</hardwareInterface>
+  </joint>
+  <actuator name="j1_actr">
+    <hardwareInterface>hardware_interface/EffortJointInterface</hardwareInterface>
+    <mechanicalReduction>1</mechanicalReduction>
+  </actuator>
+</transmission>
+
+<transmission name="j2_tran">
+  <type>transmission_interface/SimpleTransmission</type>
+  <joint name="j2">
+    <hardwareInterface>hardware_interface/EffortJointInterface</hardwareInterface>
+  </joint>
+  <actuator name="j2_actr">
+    <hardwareInterface>hardware_interface/EffortJointInterface</hardwareInterface>
+    <mechanicalReduction>1</mechanicalReduction>
+  </actuator>
+</transmission>
+
+</robot>
