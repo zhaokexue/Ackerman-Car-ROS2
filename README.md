@@ -12,6 +12,14 @@
 
 开源项目的内容：机械模型、底层驱动板PCB、底层驱动程序、ROS2部分功能包（启动功能包，描述功能包）等等
 
+开源项目github地址获取：在公众号小白学移动机器人，发送：**ROS2阿克曼**，即可获取。
+
+项目文件结构如下：
+
+![](https://zhaokx-notes.oss-cn-shenzhen.aliyuncs.com/image/image-20221023110108099.png)
+
+
+
 ### 0.2、开源项目的总体方案：
 
 ![](https://zhaokx-notes.oss-cn-shenzhen.aliyuncs.com/image/%E5%B1%8F%E5%B9%95%E6%88%AA%E5%9B%BE%202022-10-22%20192528.png)
@@ -240,4 +248,4 @@ void EXTI9_5_IRQHandler(void)
 
 ![](https://zhaokx-notes.oss-cn-shenzhen.aliyuncs.com/image/end.gif)
 
-![end2](https://zhaokx-notes.oss-cn-shenzhen.aliyuncs.com/image/end2.gif)
+![](https://zhaokx-notes.oss-cn-shenzhen.aliyuncs.com/image/end2.gif)
